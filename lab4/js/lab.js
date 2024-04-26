@@ -1,7 +1,15 @@
-// Tic- tac_toe
-/ /index.js - wining over algorythms and the importance of each step
+// Checkers
+// index.js - Patterns
 // Author: Paul Kim
-// Date:10 26 2023
+// Date:4 23 2024
+
+// Set up the board
+//   User moves a piece per turn
+//   Checks if the user has won
+//   Make sure it follows the rules
+//   Computer makes their move
+//   Check if the computer has won
+
 
 // Constants
 
