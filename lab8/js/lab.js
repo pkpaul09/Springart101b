@@ -1,15 +1,33 @@
-// index.js - Turn pseudocode into comments
-// Tic Tac Toe
+// Lab 8
 // Author: Paul Kim
-// Date:10/23/2023
+// Date:5/5/2023
 
-// Constants
-//Print the board before each row
-  // Loop through each row
-    //Print X, O, or Space
-    //Print a | between
-  //Print a newline at the end
-  //Print a horizontal line between
+
+numbers = [1, 2, 3, 4, 5]
+function MyFunction(x) {
+  return x + 5;
+}
+
+MyFunction(7);
+MyFunction(5);
+MyFunction(2);
+
+numbers.map(MyFunction);
+numbers.map(function(x){
+  return x+5;
+
+})
+var results = numbers.map(MyFunction);
+console.log("Results: ", results);
+
+
+
+
+
+
+
+
+
 
   // Functions
 
